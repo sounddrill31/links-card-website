@@ -35,6 +35,6 @@ main_links:
     text: "Download Resume"
 
 footer_link:
-  url: "https://sirupsen.com/napkin/problem-15"
-  text: "under 20kB"
-  tooltip: "Learn why this matters(Gh/Cf Pages = ~40kB)"
+  url: "https://github.com/sounddrill31/links-card-website"
+  text: "© 2025 Souhrud Reddy"
+  tooltip: "Made with HTML, JS and PicoCSS"
