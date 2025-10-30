@@ -35,7 +35,8 @@ main_links:
     text: "Download Resume"
 
 footer_link:
-  url: "https://github.com/sounddrill31/links-card-website"
-  text: "© 2025 Souhrud Reddy"
+  url: "LICENSE"
+  text: "© 2025 NeoTech Club"
 
   tooltip: "Made with HTML, JS and PicoCSS"
+
