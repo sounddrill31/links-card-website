@@ -23,6 +23,8 @@ if os.path.exists(OUTPUT_DIR):
 os.makedirs(CSS_DIR, exist_ok=True)
 print(f"'{OUTPUT_DIR}/' directory is ready.")
 
+shutil.copy2("LICENSE", OUTPUT_DIR) if os.path.exists("LICENSE") else None
+
 # --- 2. Fetch and Extract PicoCSS ---
 print(f"🚚 Fetching PicoCSS...")
 try:
@@ -115,5 +117,6 @@ minified_html = minify(rendered_html, remove_empty_space=True, remove_comments=T
 output_path = os.path.join(OUTPUT_DIR, "index.html")
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(minified_html)
+
 
 print(f"\n🚀 Success! Your ridiculously fast website has been built in the '{OUTPUT_DIR}/' folder. 🚀")
