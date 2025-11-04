@@ -71,9 +71,9 @@
   <article class="dossier">
     <section class="profile-section">
       <div class="identity-block">
-        <div class="qr-code" aria-label="QR Code for {{ qr_code.aria_label }}">
+        <a href="{{ images.qr }}" target="_blank" rel="noopener noreferrer" class="qr-code" aria-label="QR Code for {{ qr_code.aria_label }}">
           <img src="{{ images.qr }}" alt="QR Code" loading="lazy">
-        </div>
+        </a>
         <a href="{{ images.profile }}" target="_blank" rel="noopener noreferrer" aria-label="View profile picture">
           <img src="{{ images.profile }}" alt="{{ name }}" class="profile-picture" loading="lazy">
         </a>
